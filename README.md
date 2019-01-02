@@ -1,4 +1,5 @@
 # vshop
+Simple shop in Vue.
 
 ## Project setup
 ```
