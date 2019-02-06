@@ -1,20 +1,15 @@
 <template>
 
   <section>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="../../public/vue-slider.png" alt="First slide">
-        </div>
-        </div>
-      </div>
+    <div class="d-flex justify-content-center pt-45">
+      <img class="d-block" src="logo.png" alt="First slide">
     </div>
     <div class="container">
       <div class="row mt-4">
-        <div class="col-md-7">
+        <div class="col-md-6 offset-md-1">
           <products></products>
         </div>   
-        <div class="col-md-5">
+        <div class="col-md-4">
           <basket></basket>
         </div>
       </div>

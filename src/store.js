@@ -10,9 +10,8 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     products:[
-      {id: 1, name: 'T-shirt', price: 20, sizes: {'S': 0, 'M': 10, 'L': 10}},
-      {id: 2, name: 'Bluza', price: 40, sizes: {'S': 10, 'M': 10, 'L': 10}},
-      {id: 3, name: 'Jeans', price: 100, sizes: {'S': 10, 'M': 10, 'L': 10}}
+      {id: 1, name: 'T-shirt', price: 20, sizes: {'S': 0, 'M': 10, 'L': 10}, src: 'tshirt.jpg'},
+      {id: 2, name: 'Bluza', price: 40, sizes: {'S': 10, 'M': 10, 'L': 10}, src: 'bluza.jpg'}
     ],
     basket:[],
     payments:[

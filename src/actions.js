@@ -12,7 +12,7 @@ export default {
     },
 
     decrement({commit, state}, payload){
-        const existingProduct = state.basket.find(item => item.id === product.id && item.size === product.size)
+        const existingProduct = state.basket.find(item => item.id === payload.id && item.size === payload.size)
 
         if(existingProduct.qty > 1){
             commit('DECREMENT_PRODUCT', payload)
