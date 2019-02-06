@@ -28,7 +28,12 @@
 </template>
 
 <script>
+  import sinon from "sinon"
+  import store from '@/store'
 
+  import { mount } from '@vue/test-utils'
+
+  import Vue from 'vue'
   export default {
     name: 'Products',
     data: function(){

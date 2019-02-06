@@ -10,6 +10,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "sinon": "^7.2.2",
     "vee-validate": "^2.1.4",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",

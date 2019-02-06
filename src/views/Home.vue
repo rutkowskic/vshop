@@ -28,6 +28,7 @@
 
   import Products from "@/components/Products";
   import Basket from "@/components/Basket";
+  import { mount } from '@vue/test-utils'
 
   export default {
     components: {
